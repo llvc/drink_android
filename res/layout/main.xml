@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+    		android:layout_height="fill_parent">
+	<ScrollView 
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent">
+	   	<FrameLayout 	android:layout_width="fill_parent"
+	   	    			android:layout_height="wrap_content"
+	   	    			android:background="#00f">
+	   	    			
+			<FrameLayout android:layout_width="fill_parent"
+			    		android:layout_height="1008dp"
+			    		android:background="@drawable/background"
+			    		android:id="@+id/FrameLayoutContainer"
+			    		android:tag="_wh"
+			    >
+				<FrameLayout 	android:layout_width="648dp"
+				    			android:layout_height="68dp"
+				    			android:background="@drawable/header_bar"
+				    			android:tag="_wh"
+				    			android:id="@+id/FrameLayoutHeader">
+				    <FrameLayout 	android:layout_width="398dp"
+				        			android:layout_height="55dp"
+				        			android:background="@drawable/header_logo"
+				        			android:layout_gravity="center"
+				        			android:tag="c_wh"
+				        			android:id="@+id/FrameLayoutHeaderLogo" />
+				</FrameLayout>
+				
+				<FrameLayout	android:layout_width="245dp"
+				    			android:layout_height="171dp"
+				    			android:layout_marginLeft="30dp"
+				    			android:layout_marginTop="69dp"
+				    			android:background="@drawable/bubbles"
+				    			android:layout_gravity="left|top"
+				    			android:tag="_ltwh"
+				    			android:id="@+id/FrameLayoutBubbles">
+				</FrameLayout>
+				<FrameLayout	android:layout_width="415dp"
+				    			android:layout_height="29dp"
+				    			android:layout_marginLeft="182dp"
+				    			android:layout_marginTop="214dp"
+				    			android:background="@drawable/text_1"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:id="@+id/FrameLayoutLabel1">
+				</FrameLayout>
+				<FrameLayout	android:layout_width="586dp"
+				    			android:layout_height="84dp"
+				    			android:layout_marginLeft="32dp"
+				    			android:layout_marginTop="277dp"
+				    			android:layout_gravity="left|top"
+				    			android:tag="_ltwh"
+				    			android:id="@+id/FrameLayoutButtonsBack">
+				    <Button 	android:layout_width="195dp"
+				        		android:layout_height="84dp"
+				        		android:layout_gravity="left|top"
+				        		android:layout_marginLeft="0dp"
+				        		android:layout_marginTop="0dp"
+				        		android:textColor="#fff"
+				        		android:padding="3dp"
+				        		android:text="Sports"
+				        		android:gravity="center"
+				        		android:tag = "_ltwh"
+				        		android:singleLine="true"
+				        		android:ellipsize="end"
+				        		android:id="@+id/FrameLayoutButtonSports"
+				        		android:background="@drawable/btn_selector_sports" />
+				    <Button 	android:layout_width="196dp"
+				        		android:layout_height="84dp"
+				        		android:layout_gravity="left|top"
+				        		android:layout_marginLeft="195dp"
+				        		android:layout_marginTop="0dp"
+				        		android:tag = "_ltwh"
+				        		android:padding="3dp"
+				        		android:text="Hobbies"
+				        		android:gravity="center"
+				        		android:id="@+id/FrameLayoutButtonHobbies"
+				        		android:textColor="#fff"
+				        		android:background="@drawable/btn_selector_hobbies"
+				        		android:singleLine="true"
+				        		android:ellipsize="end" />
+				    <Button 	android:layout_width="195dp"
+				        		android:layout_height="84dp"
+				        		android:text="Community"
+				        		android:padding="3dp"
+				        		android:gravity="center"
+				        		android:textColor="#fff"
+				        		android:layout_gravity="left|top"
+				        		android:layout_marginLeft="391dp"
+				        		android:layout_marginTop="0dp"
+				        		android:tag = "_ltwh"
+				        		android:id="@+id/FrameLayoutButtonCommunity"
+				        		android:background="@drawable/btn_selector_community"
+				        		android:singleLine="true"
+				        		android:ellipsize="end" />
+				</FrameLayout>
+				
+				<FrameLayout	android:layout_width="648dp"
+				    			android:layout_height="44dp"
+				    			android:layout_marginLeft="0dp"
+				    			android:layout_marginTop="394dp"
+				    			android:background="@drawable/category_bar"
+				    			android:layout_gravity="left|top"
+				    			android:tag="_ltwh"
+				    			android:id="@+id/FrameLayoutCagegoryBar">
+				</FrameLayout>
+				
+				<Button		android:layout_width="435dp"
+				    			android:layout_height="84dp"
+				    			android:layout_marginLeft="121dp"
+				    			android:layout_marginTop="491dp"
+				    			android:background="@drawable/btn_selector_gps_button"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:gravity="center"
+				    			android:id="@+id/FrameLayoutGpsButton"
+				    			android:text="Use GPS Location"
+				    			android:textColor="#fff">
+				</Button>
+				
+				<FrameLayout 	android:layout_width="442dp"
+				    			android:layout_height="72dp"
+				    			android:layout_marginLeft="109dp"
+				    			android:layout_marginTop="627dp"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:id="@+id/FrameLayoutRangeInput_ltwh"
+				    			android:padding="0dp"
+				    			>
+				    	<EditText 	android:layout_width="91dp"
+				    	    		android:layout_height="72dp"
+				    	    		android:inputType="number"
+				    	    		android:tag="_ltwh"
+				    	    		android:layout_gravity="left|top"
+				    	    		android:layout_marginLeft="0dp"
+				    	    		android:layout_marginTop="0dp"
+				    	    		android:textSize="12sp"
+				    	    		android:id="@+id/EditTextRange"
+				    	    		android:text="@string/default_distance"
+				    	    		android:gravity="center"
+								 />
+				    	<org.wsbd.library.SolidProgressBar	android:layout_width="331dp"
+				    	    		android:layout_height="40dp"
+				    	    		android:tag="_ltwh"
+				    	    		android:layout_gravity="left|top"
+				    	    		android:layout_marginLeft="110dp"
+				    	    		android:layout_marginTop="0dp"
+				    	    		android:gravity="center"
+				    	    		/>
+				</FrameLayout>
+				
+				<ImageButton	android:layout_width="493dp"
+				    			android:layout_height="141dp"
+				    			android:layout_marginLeft="85dp"
+				    			android:layout_marginTop="731dp"
+				    			android:background="@drawable/btn_selector_begin_searh_button"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:id="@+id/FrameLayoutSearchButton">
+				</ImageButton>
+				
+				<FrameLayout 	android:layout_width="608dp"
+				    			android:layout_height="52dp"
+				    			android:layout_marginLeft="22dp"
+				    			android:layout_marginTop="917dp"
+				    			android:layout_gravity="left|top"
+				    			android:background="@drawable/text_2"
+				    			android:tag="_ltwh"
+				    			android:id="@+id/FrameLayoutLabel2_ltwh">
+				</FrameLayout>
+				
+				<!-- <FrameLayout 	android:layout_width="366dp"
+				    			android:layout_height="583dp"
+				    			android:layout_marginLeft="7dp"
+				    			android:layout_marginTop="350dp"
+				    			android:layout_gravity="left|top"
+				    			android:background="@drawable/scroll_back"
+				    			android:tag="_ltwh"
+				    			android:id="@+id/FrameLayoutScrollSports">
+				    	<ScrollView android:layout_width="fill_parent"
+				    	    		android:layout_height="fill_parent"
+				    	    		android:id="@+id/ScrollViewSports"
+				    	    		android:background="@null"
+				    	    		android:tag="_"
+				    	    		>
+				    	    <LinearLayout 	android:layout_width="fill_parent"
+				    	        			android:layout_height="wrap_content"
+				    	        			android:tag="_"
+				    	        			android:id="@+id/LinearLayoutSportsList"
+				    	        			android:orientation="vertical">
+				    	    </LinearLayout>
+				    	</ScrollView>
+				</FrameLayout>
+				
+				<FrameLayout 	android:layout_width="366dp"
+				    			android:layout_height="583dp"
+				    			android:layout_marginLeft="212dp"
+				    			android:layout_marginTop="349dp"
+				    			android:layout_gravity="left|top"
+				    			android:background="@drawable/scroll_back"
+				    			android:tag="_ltwh"
+				    			android:id="@+id/FrameLayoutScrollHobbies">
+				    	<ScrollView android:layout_width="fill_parent"
+				    	    		android:layout_height="fill_parent"
+				    	    		android:id="@+id/ScrollViewHobbies"
+				    	    		android:background="@null"
+				    	    		android:tag="_"
+				    	    		>
+				    	    <LinearLayout 	android:layout_width="fill_parent"
+				    	        			android:layout_height="wrap_content"
+				    	        			android:tag="_"
+				    	        			android:id="@+id/LinearLayoutHobbiesList"
+				    	        			android:orientation="vertical">
+				    	    </LinearLayout>
+				    	</ScrollView>
+				</FrameLayout>
+				
+				<FrameLayout 	android:layout_width="366dp"
+				    			android:layout_height="583dp"
+				    			android:layout_marginLeft="330dp"
+				    			android:layout_marginTop="349dp"
+				    			android:layout_gravity="left|top"
+				    			android:background="@drawable/scroll_back"
+				    			android:tag="_ltwh"
+				    			android:id="@+id/FrameLayoutScrollCommunity">
+				    	<ScrollView android:layout_width="fill_parent"
+				    	    		android:layout_height="fill_parent"
+				    	    		android:id="@+id/ScrollViewCommunity"
+				    	    		android:background="@null"
+				    	    		android:tag="_"
+				    	    		>
+				    	    <LinearLayout 	android:layout_width="fill_parent"
+				    	        			android:layout_height="wrap_content"
+				    	        			android:tag="_"
+				    	        			android:id="@+id/LinearLayoutCommunityList"
+				    	        			android:orientation="vertical">
+				    	    </LinearLayout>
+				    	</ScrollView>
+				</FrameLayout>-->
+			</FrameLayout>
+		</FrameLayout>
+	</ScrollView>
+	
+	<FrameLayout 	android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"
+	    			android:id="@+id/FrameLayoutSemiLayer"
+	    			android:background="#77000000"/>
+	
+	<FrameLayout 	android:layout_width="300dp"
+	    			android:layout_height="190dp"
+	    			android:tag="bch_wh"
+	    			android:layout_gravity="bottom|center_horizontal"
+	    			android:id="@+id/FrameLayoutWheelLayout">
+	   	<FrameLayout 	android:layout_width="300dp"
+	   	    			android:layout_height="40dp"
+	   	    			android:tag="_wh"
+	   	    			android:paddingRight="2dp"
+	   	    			android:background="@drawable/gradient_tile_drawable">
+			<TextView 	android:layout_width="wrap_content"
+			    		android:layout_height="fill_parent"
+			    		android:gravity="center"
+			    		android:textColor="#fff"
+			    		android:layout_gravity="center"
+			    		android:id="@+id/TextViewWheelTitle"/>
+			
+	   	    <Button 	android:layout_width="75dp"
+	   	        		android:layout_height="35dp"
+	   	        		android:tag="rcv_wh"
+	   	        		android:layout_gravity="right|center_vertical"
+	   	        		android:textColor="#fff"
+	   	        		android:background="@drawable/btn_selector_gradient_button"
+	   	        		android:text="@string/button_text_done"
+	   	        		android:id="@+id/ButtonWheelDoneButton"/>		
+	   	</FrameLayout>
+	   	
+		<kankan.wheel.widget.WheelView
+			    android:layout_width="300dp"
+			    android:layout_height="150dp"
+			    android:id="@+id/WheelViewCategories"
+			    android:layout_gravity="bottom|center_horizontal"
+			    android:tag="bch_wh" />
+	</FrameLayout>
+
+</FrameLayout>

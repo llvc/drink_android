@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp"	
+	>
+	
+    <LinearLayout 	android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginTop="10dp"
+        			>
+        <TextView 	android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:layout_weight="1"
+            		android:textColor="#000"
+            		android:gravity="center"
+            		android:textSize="18sp"
+            		android:text="March 31"/>
+        
+        <TextView 	android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:layout_weight="1"
+            		android:gravity="center"
+            		android:textSize="18sp"
+            		android:text="Comments 41"/>
+        
+        <LinearLayout 	android:layout_width="fill_parent"
+            			android:layout_weight="1"
+            			android:layout_height="wrap_content"
+            			android:gravity="right" >
+            <ImageButton 	android:layout_width="wrap_content"
+                			android:layout_height="wrap_content"
+                			android:background="@drawable/btn_selector_edit_button" />
+        </LinearLayout>
+            		
+    </LinearLayout>
+    
+    <TextView 	android:layout_width="fill_parent"
+               	android:layout_marginTop="3dp"
+               	android:textColor="#000"
+               	android:text="News Body Sample"
+               	android:layout_height="wrap_content" />
+    
+     <ImageView 	android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:layout_marginTop="5dp"
+				android:background="#0ff" />    
+	
+    <!--  
+        <LinearLayout 	android:layout_width="fill_parent"
+            			android:layout_height="fill_parent"
+            			android:layout_marginLeft="5dp"
+            			android:orientation="vertical">
+            <LinearLayout 	android:layout_width="fill_parent"
+                			android:layout_height="wrap_content">
+                <TextView 	android:layout_width="fill_parent"
+                    		android:layout_weight="1"
+                    		android:singleLine="true"
+                    		android:ellipsize="end"
+                    		android:textColor="#000"
+                    		android:text="Name"
+                    		android:layout_height="wrap_content" />
+                <TextView 	android:layout_width="wrap_content"
+                    		android:layout_height="wrap_content"
+                    		android:singleLine="true"
+                    		android:ellipsize="end"
+                    		android:textColor="#555"
+                    		android:text="Wed" />
+            </LinearLayout>
+            
+            <TextView 	android:layout_width="fill_parent"
+                    	android:layout_weight="1"
+                    	android:layout_marginTop="3dp"
+                    	android:textColor="#555"
+                    	android:text="Chat Text Body Sample"
+                    	android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <ImageView 	android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:layout_marginTop="5dp"
+				android:background="#0ff" />
+				-->    
+	
+</LinearLayout>

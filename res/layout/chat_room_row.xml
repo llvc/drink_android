@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp"	
+	>
+	
+    <LinearLayout 	android:layout_width="fill_parent"
+        			android:layout_height="fill_parent"
+        			android:layout_weight="1"
+        			android:layout_marginTop="10dp"
+        			>
+        <ImageView 	android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:id="@+id/ImageViewProfilePhoto"
+            		android:background="@drawable/main_board_photo_sample" />
+        
+        <LinearLayout 	android:layout_width="fill_parent"
+            			android:layout_height="fill_parent"
+            			android:layout_weight="1"
+            			android:layout_marginLeft="5dp"
+            			android:orientation="vertical">
+                <TextView 	android:layout_width="fill_parent"
+                    		android:singleLine="true"
+                    		android:ellipsize="end"
+                    		android:textColor="#000"
+                    		android:text="Name"
+                    		android:layout_weight="1"
+                    		android:layout_height="fill_parent" />
+            
+            <TextView 	android:layout_width="wrap_content"
+                    	android:text="Sunday 905 PM"
+                    	android:layout_gravity="right"
+                    	android:textColor="#333"
+                    	android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <ImageView 	android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:layout_marginTop="5dp"
+				android:background="#0ff" />    
+	
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, StartActivity!</string>
+    <string name="app_name">HotCourts</string>
+    <string name="default_distance">15</string>
+    <string name="button_text_done">Done</string>
+    
+    <string-array name="sports_cat_items">
+        <item>Health/Diet</item>
+		<item>Fitness Workout</item>
+		<item>Swimming</item>
+		<item>Running/Walking</item>
+		<item>Bicycling</item>
+		<item>Dancing</item>
+		<item>Martial Arts</item>
+		<item>Soccer</item>
+		<item>Basketball</item>
+		<item>Baseball</item>
+		<item>Golf</item>
+		<item>Tennis</item>
+		<item>High School</item>
+		<item>College</item>
+		<item>Fishing/Hunting</item>
+		<item>Hiking/Camping</item>
+		<item>Poker/Billiards</item>
+		<item>Bowling</item>
+    </string-array>
+    
+    <string-array name="hobbies_cat_items">
+   		<item>Any/Leisure</item>
+		<item>Pets</item>
+		<item>Artists</item>
+		<item>Musicians</item>
+		<item>Photography</item>
+		<item>House/Garden</item>
+		<item>Cooking</item>
+	</string-array>
+	
+    <string-array name="community_cat_items">
+        <item>Talk/Gossip</item>
+		<item>Help!</item>
+		<item>Parenting</item>
+		<item>College/Learning</item>
+		<item>Working</item>
+		<item>Religion/Healing</item>
+		<item>Local Jobs</item>
+		<item>Housing</item>
+		<item>Rideshare</item>
+		<item>Selling/Wanted</item>
+    </string-array>
+    
+    <string-array name="location_cat_items">
+        <item>Use GPS Location</item>
+        <item>Use Zip Code</item>
+    </string-array>
+    
+    <!-- 
+    <string-array name="sort_by_item">
+        <item>Sort</item>
+    </string-array>
+     -->
+     
+    <string name="profile_sample_text">Test</string>
+    
+</resources>

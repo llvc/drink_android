@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+    		android:layout_height="fill_parent">
+	   	<FrameLayout 	android:layout_width="fill_parent"
+	   	    			android:layout_height="fill_parent"
+	   	    			android:background="@drawable/background"
+	   	    			>
+			<FrameLayout android:layout_width="fill_parent"
+			    		android:layout_height="1008dp"
+			    		android:id="@+id/FrameLayoutContainer"
+			    		android:tag="_wh"
+			    >
+			    
+				<FrameLayout 	android:layout_width="648dp"
+				    			android:layout_height="68dp"
+				    			android:background="@drawable/header_bar"
+				    			android:paddingLeft="20dp"
+				    			android:paddingRight="20dp"
+				    			android:tag="_wh"
+				    			android:id="@+id/FrameLayoutHeader">
+				    <FrameLayout 	android:layout_width="300dp"
+				        			android:layout_height="41dp"
+				        			android:background="@drawable/header_logo"
+				        			android:layout_gravity="left|center_vertical"
+				        			android:tag="lcv_wh"
+				        			android:id="@+id/FrameLayoutHeaderLogo" />
+				    <FrameLayout 	android:layout_width="244dp"
+				        			android:layout_height="44dp"
+				        			android:layout_gravity="right|center_vertical"
+				        			android:tag="rcv_wh"
+				        			android:background="@drawable/main_board_search_panel"
+				        			android:id="@+id/search_panel" />
+				</FrameLayout>
+				
+				
+				<FrameLayout 	android:layout_width="648dp"
+				    			android:layout_height="564dp"
+				    			android:layout_marginLeft="3dp"
+				    			android:layout_marginTop="70dp"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:background="@drawable/group_profile_photo_sample" />
+				<ScrollView		android:layout_width="211dp"
+				    			android:layout_height="471dp"
+				    			android:layout_gravity="left|top"
+				    			android:layout_marginLeft="438dp"
+				    			android:layout_marginTop="66dp"
+				    			android:tag="_ltwh">
+					<LinearLayout	android:layout_width="fill_parent"
+					    			android:layout_height="wrap_content"
+					    			android:paddingLeft="15dp"
+					    			android:orientation="vertical">
+								<TextView 	android:layout_width="wrap_content"
+								    		android:layout_height="wrap_content"
+								    		android:text="1 vs 1 Group"
+								    		android:textColor="#fff"
+								    		android:layout_marginTop="20dp"
+								    		android:textSize="20sp" />
+								<TextView 	android:layout_width="wrap_content"
+								    		android:layout_height="wrap_content"
+								    		android:layout_marginTop="15dp"
+								    		android:text="Created"
+								    		android:textColor="#fff"
+								    		android:textSize="16sp" />
+								<TextView 	android:layout_width="wrap_content"
+								    		android:layout_height="wrap_content"
+								    		android:text="Dec 23th, 2011"
+								    		android:textColor="#fff"
+								    		android:textSize="16sp" />
+								<TextView 	android:layout_width="wrap_content"
+								    		android:layout_height="wrap_content"
+								    		android:layout_marginTop="15dp"
+								    		android:text="Members"
+								    		android:textColor="#fff"
+								    		android:textSize="16sp" />
+								<TextView 	android:layout_width="wrap_content"
+								    		android:layout_height="wrap_content"
+								    		android:text="1,087"
+								    		android:textColor="#fff"
+								    		android:textSize="16sp" />
+					</LinearLayout>
+				</ScrollView>
+				
+				<ImageButton 	android:layout_width="176dp"
+				    			android:layout_height="66dp"
+				    			android:layout_marginLeft="16dp"
+				    			android:layout_marginTop="543dp"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:background="@drawable/btn_selector_profile_fav" />
+				<ImageButton 	android:layout_width="176dp"
+				    			android:layout_height="66dp"
+				    			android:layout_marginLeft="234dp"
+				    			android:layout_marginTop="543dp"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:background="@drawable/btn_selector_members_button" />
+				<ImageButton 	android:layout_width="176dp"
+				    			android:layout_height="66dp"
+				    			android:layout_marginLeft="444dp"
+				    			android:layout_marginTop="543dp"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:id="@+id/ImageButtonFollowers"
+				    			android:background="@drawable/btn_selector_profile_follow" />
+				<ImageButton 	android:layout_width="176dp"
+				    			android:layout_height="66dp"
+				    			android:layout_marginLeft="16dp"
+				    			android:layout_marginTop="900dp"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:background="@drawable/btn_selector_profile_photoes" />
+				<ImageButton 	android:layout_width="176dp"
+				    			android:layout_height="66dp"
+				    			android:layout_marginLeft="235dp"
+				    			android:layout_marginTop="900dp"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:id="@+id/ImageButtonProfileChats"
+				    			android:background="@drawable/btn_selector_profile_chat" />
+				<ImageButton 	android:layout_width="176dp"
+				    			android:layout_height="66dp"
+				    			android:layout_marginLeft="454dp"
+				    			android:layout_marginTop="900dp"
+				    			android:tag="_ltwh"
+				    			android:layout_gravity="left|top"
+				    			android:background="@drawable/btn_selector_profile_newsfeed" />
+				
+				<ScrollView 	android:layout_width="629dp"
+				    			android:layout_height="240dp"
+				    			android:layout_marginLeft="6dp"
+				    			android:layout_marginTop="646dp"
+				    			android:padding="10dp"
+				    			android:tag="_ltwh"
+				    			android:background="@drawable/profile_text_back"
+				    			android:layout_gravity="left|top">
+				    <TextView 	android:text="@string/profile_sample_text"
+				        		android:layout_width="fill_parent"
+				        		android:layout_height="wrap_content"
+				        		android:textColor="#000"
+				        		android:textSize="20sp"
+				        		/>
+				    
+				</ScrollView>
+			</FrameLayout>
+	</FrameLayout>
+</FrameLayout>

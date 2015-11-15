@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+    		android:layout_height="fill_parent">
+	   	<FrameLayout 	android:layout_width="fill_parent"
+	   	    			android:layout_height="fill_parent"
+	   	    			android:background="#00f">
+		</FrameLayout>
+		
+	   	<FrameLayout
+	   	    android:id="@+id/FrameLayoutContainer"
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="1008dp"
+	   	    android:background="@drawable/background"
+	   	    android:tag="_wh" >
+
+	   	    <FrameLayout
+	   	        android:id="@+id/FrameLayoutHeader"
+	   	        android:layout_width="648dp"
+	   	        android:layout_height="68dp"
+	   	        android:background="@drawable/header_bar"
+	   	        android:paddingLeft="20dp"
+	   	        android:paddingRight="20dp"
+	   	        android:tag="_wh" >
+
+	   	        <FrameLayout
+	   	            android:id="@+id/FrameLayoutHeaderLogo"
+	   	            android:layout_width="300dp"
+	   	            android:layout_height="41dp"
+	   	            android:layout_gravity="left|center_vertical"
+	   	            android:background="@drawable/header_logo"
+	   	            android:tag="lcv_wh" >
+	   	        </FrameLayout>
+
+	   	        <FrameLayout
+	   	            android:id="@+id/search_panel"
+	   	            android:layout_width="244dp"
+	   	            android:layout_height="44dp"
+	   	            android:layout_gravity="right|center_vertical"
+	   	            android:background="@drawable/main_board_search_panel"
+	   	            android:tag="rcv_wh" >
+	   	        </FrameLayout>
+	   	    </FrameLayout>
+
+	   	    <FrameLayout 	android:layout_marginLeft="0dp"
+				    		android:layout_marginTop="65dp"
+				    		android:layout_width="648dp"
+				    		android:layout_height="80dp"
+				    		android:tag="_ltwh"
+				    		android:layout_gravity="left|top"
+				    		android:background="@drawable/main_board_title_bar_bg">
+	   	        <ImageButton 	android:layout_width="110dp"
+	   	            			android:layout_height="60dp"
+	   	            			android:background="@drawable/btn_selector_edit_profile_cancel_button"
+	   	            			android:layout_gravity="left|top"
+	   	            			android:layout_marginLeft="10dp"
+	   	            			android:layout_marginTop="10dp"
+	   	            			android:tag="_ltwh"
+	   	            			android:id="@+id/ImageButtonCancel"
+	   	            			/>	
+	   	            			
+	   	        <ImageButton 	android:layout_width="110dp"
+	   	            			android:layout_height="60dp"
+	   	            			android:background="@drawable/btn_selector_edit_profile_save_button"
+	   	            			android:layout_gravity="left|top"
+	   	            			android:layout_marginLeft="528dp"
+	   	            			android:layout_marginTop="10dp"
+	   	            			android:tag="_ltwh"
+	   	            			/>	
+	   	            			
+		     <TextView 	android:layout_width="wrap_content"
+		         		android:layout_height="fill_parent"
+		         		android:layout_gravity="center"
+		         		android:gravity="center"
+		         		android:textColor="#000"
+		         		android:id="@+id/TextViewTitleBarLabel"
+		         		android:text="Create New Group" />		
+	   	 </FrameLayout>
+	   	
+	   	    <ScrollView
+	   	        android:layout_width="514dp"
+	   	        android:layout_height="823dp"
+	   	        android:layout_gravity="left|top"
+	   	        android:layout_marginLeft="75dp"
+	   	        android:layout_marginTop="146dp"
+	   	        android:tag="_ltwh" >
+		     
+	   	        <LinearLayout 	android:layout_width="fill_parent"
+	   	            			android:layout_height="wrap_content"
+	   	            			android:orientation="vertical">
+
+		   	        <LinearLayout
+		   	            android:layout_width="fill_parent"
+		   	            android:layout_height="wrap_content" >
+	
+		   	            <TextView
+		   	                android:layout_width="wrap_content"
+		   	                android:layout_height="wrap_content"
+		   	                android:text="Group Name"
+		   	                android:textColor="#000" />
+	
+		   	            <EditText
+		   	                android:layout_width="fill_parent"
+		   	                android:layout_height="wrap_content"
+		   	                android:layout_marginLeft="20dp"
+		   	                android:layout_weight="1"
+		   	                android:singleLine="true"
+		   	                android:hint="Group Name" >
+	
+		   	                <requestFocus />
+		   	            </EditText>
+		   	        </LinearLayout>
+		   	        
+		   	        <LinearLayout
+		   	            android:layout_width="fill_parent"
+		   	            android:orientation="vertical"
+		   	            android:layout_weight="1"
+		   	            android:layout_height="wrap_content" >
+	
+		   	            <TextView
+		   	                android:layout_width="fill_parent"
+		   	                android:layout_height="wrap_content"
+		   	                android:text="Group Description"
+		   	                android:textColor="#000" />
+	
+		   	            <EditText
+		   	                android:layout_width="fill_parent"
+		   	                android:layout_height="100dp"
+		   	                android:layout_marginLeft="20dp"
+		   	                android:hint="Personal Description" >
+		   	            </EditText>
+		   	        </LinearLayout>
+		   	        
+		   	        <LinearLayout
+		   	            android:layout_width="fill_parent"
+		   	            android:layout_height="wrap_content" >
+	
+		   	            <TextView
+		   	                android:layout_width="wrap_content"
+		   	                android:layout_height="wrap_content"
+		   	                android:text="Password"
+		   	                android:textColor="#000" />
+	
+		   	            <EditText
+		   	                android:layout_width="fill_parent"
+		   	                android:layout_height="wrap_content"
+		   	                android:layout_marginLeft="20dp"
+		   	                android:layout_weight="1"
+		   	                android:singleLine="true"
+		   	                android:hint="Password" >
+	
+		   	                <requestFocus />
+		   	            </EditText>
+		   	        </LinearLayout>
+		   	        
+		   	        <LinearLayout
+		   	            android:layout_width="fill_parent"
+		   	            android:orientation="vertical"
+		   	            android:layout_weight="1"
+		   	            android:layout_height="fill_parent" >
+		   	            <TextView
+		   	                android:layout_width="fill_parent"
+		   	                android:layout_height="wrap_content"
+		   	                android:text="Group Picture"
+		   	                android:textColor="#000" />
+		   	            <LinearLayout
+		   	                android:layout_width="fill_parent"
+		   	                android:layout_height="wrap_content"
+		   	                android:layout_marginLeft="10dp"
+		   	                android:orientation="vertical"
+		   	                android:layout_weight="1" >
+	
+		   	                <ImageView 	android:layout_width="80dp"
+		   	                    		android:layout_height="80dp"
+		   	                    		android:layout_gravity="center"
+		   	                    		android:background="@drawable/picture_border" />
+		   	                <Button		android:layout_width="wrap_content"
+		   	                    		android:layout_marginTop="10dp"
+		   	                    		android:layout_weight="1"
+		   	                    		android:layout_height="wrap_content"
+		   	                    		android:layout_gravity="center"
+		   	                    		android:text="Take a photo" />
+		   	            </LinearLayout>
+		   	        </LinearLayout>
+		   	    </LinearLayout>
+		   	</ScrollView>
+	</FrameLayout>
+</FrameLayout>

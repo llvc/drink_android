@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/gradient_h_tile"
+    android:tileMode="repeat"
+    android:dither="true" />
+ -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:endColor="#f7c743" android:startColor="#f7c743"
+        android:angle="270"/>
+    <stroke android:width="2dp" android:color="#000000"
+            />
+    <corners android:radius="30dp" />
+</shape>
